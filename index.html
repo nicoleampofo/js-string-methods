@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <!-- The length method -->
+    <h1>Length</h1>
+    <input type="text" id="word">
+    <p>The length of your string is:</p>
+    <button type="button" name="button" onclick="lengthMethod()">
+        Try It!
+    </button>
+    <p id="wordLengthDisplay"></p>
+
+    <!-- The split method -->
+    <h1>Split</h1>
+    <p>Your entry will be returned with spaces removed, with words separated by a comma.</p>
+    <input type="text" id="string">
+    <button type="button" name="button" onclick="splitMethod()">
+        Try It!
+    </button>
+    <p id="stringWithoutSpaces"></p>
+
+    <!-- The slice method -->
+    <h1>Slice</h1>
+    <p>Enter a string in the first text box, and a number in the second. Your entry will be returned with the specified characters removed.</p>
+    <input type="text" id="stringToSlice">
+    <input type="text" id="indexToSlice">
+    <button type="button" name="button" onclick="sliceMethod()">
+        Try It!
+    </button>
+    <p id="slicedString"></p>
+</body>
+    <script src="practice.js"></script>
+</html>
