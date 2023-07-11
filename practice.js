@@ -16,3 +16,10 @@ function sliceMethod(){
     let sliceIndex = sliceInput.slice(indexInput);
     document.getElementById("slicedString").innerHTML = sliceIndex;
 }
+
+function includesMethod(){
+    let includesInput = document.getElementById("stringToInclude").value;
+    let includedInput = document.getElementById("stringIncluded").value;
+    let includesBool = includesInput.includes(includedInput);
+    document.getElementById("includesString").innerHTML = includesBool;
+}
