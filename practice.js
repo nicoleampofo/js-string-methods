@@ -23,3 +23,10 @@ function includesMethod(){
     let includesBool = includesInput.includes(includedInput);
     document.getElementById("includesString").innerHTML = includesBool;
 }
+
+function charAtMethod(){
+    let charAtStringInput = document.getElementById("stringToCharAt").value;
+    let charAtIndexInput = document.getElementById("charAtIndex").value;
+    let charAtCombined = charAtStringInput.charAt(charAtIndexInput);
+    document.getElementById("charAtCharacter").innerHTML = charAtCombined;
+}
