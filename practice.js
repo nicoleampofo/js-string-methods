@@ -30,3 +30,9 @@ function charAtMethod(){
     let charAtCombined = charAtStringInput.charAt(charAtIndexInput);
     document.getElementById("charAtCharacter").innerHTML = charAtCombined;
 }
+
+function indexOfMethod(){
+    let indexOfStringValue = document.getElementById("indexOfString").value;
+    let indexOfIndexValue = document.getElementById("indexOfIndex").value;
+    document.getElementById("indexOfCharacter").innerHTML = indexOfStringValue.indexOf(indexOfIndexValue);
+}
